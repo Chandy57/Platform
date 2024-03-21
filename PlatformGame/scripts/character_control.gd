@@ -12,5 +12,6 @@ func _physics_process(delta):
 		direction.x = -1
 	if(Input.is_action_pressed("right")):
 		direction.x = 1
-	
+		
 	apply_force(direction * speed)
+	direction = Vector2.ZERO

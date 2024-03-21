@@ -7,9 +7,12 @@
 
 [node name="Character" parent="." instance=ExtResource("1_xtv18")]
 position = Vector2(437, 278)
+gravity_scale = 2.0
+linear_damp = 7.0
+speed = 2000.0
 
 [node name="Floor_Basic" parent="." instance=ExtResource("2_krdg7")]
 position = Vector2(425, 401)
 
 [node name="Floor_Basic2" parent="." instance=ExtResource("2_krdg7")]
-position = Vector2(737, 325)
+position = Vector2(673, 402)
