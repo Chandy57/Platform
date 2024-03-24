@@ -8,6 +8,7 @@
 [node name="Character" parent="." instance=ExtResource("1_xtv18")]
 position = Vector2(437, 278)
 gravity_scale = 2.0
+lock_rotation = true
 linear_damp = 7.0
 speed = 2000.0
 
